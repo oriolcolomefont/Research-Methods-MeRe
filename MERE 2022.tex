@@ -28,24 +28,35 @@ We strive to address one of the most important ethical issues in academia today:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
-Social protest movements such as \href{https://hipatiapress.com/hpjournals/index.php/hse/article/view/10545/3659}{\#MeToo} or \href{https://doi.org/10.1016/j.jnma.2021.12.009}{\#BlackLivesMatter} have highlighted the need for greater diversity, equity, and inclusion at scientific institutions worldwide. In this article, we decided to conduct a meta-research analysis to find where the spotlight is shining regarding inequality of opportunity in the research career in order to spot the academia's coverage of the phenomenon.
+The recent upsurge of social protest movements such as \href{https://hipatiapress.com/hpjournals/index.php/hse/article/view/10545/3659}{\#MeToo} and \href{https://doi.org/10.1016/j.jnma.2021.12.009}{\#BlackLivesMatter} have drawn global attention to the pressing issues of diversity, equity, and inclusion. These calls for systemic change resonate in all corners of society, including scientific institutions worldwide. Yet, while these institutions are critical drivers of innovation and progress, there are growing concerns that not all members of society have equal opportunities to participate and succeed in these settings \cite{ref1}. This systematic discrimination, defined as the unjust or prejudicial treatment of different categories of people, is an issue that merits rigorous scientific investigation.
 
 \begin{definition}
-\href{https://languages.oup.com/}{Discrimination} is the unjust or prejudicial treatment of different categories of people.
+\href{https://languages.oup.com/}{Discrimination} is the unjust or prejudicial treatment of different categories of people, often rooted in social, racial, or gender biases.
 \end{definition}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Given the significance of this issue, we have embarked on a meta-research analysis to understand better the dynamics of inequality of opportunity in scientific research careers. Our aim is not only to uncover the current state of affairs but also to reveal how the academic discourse on this topic has evolved over the past five years. This study's findings may be useful in informing policy interventions and stimulating further research.
+
 \subsection{Research question(s)}
-Are there situations of discrimination when accessing a research career? If so, what are the possible causes of that discrimination? When studying this phenomenon, what has been the general tendency for the past five years?
+Guiding our study are the following research questions:
+\begin{itemize}
+\item Are there instances of discrimination when accessing a research career?
+\item What are the potential causes or sources of this discrimination?
+\item What trends or patterns have emerged over the past five years in the study of this phenomenon?
+\end{itemize}
+
+The answers to these questions could shed light on the underpinnings of discrimination in research careers and help identify possible countermeasures.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Methodology}
 We used the \href{https://www.scopus.com/}{SCOPUS} search tool to do all tasks above, which contains an extensive database of multidisciplinary scientific publications.
 \subsection{SCOPUS}
-SCOPUS uniquely combines a comprehensive, expertly curated abstract and citation database with enriched data and linked scholarly literature across various disciplines. It quickly finds relevant and authoritative research, identifies experts, and provides access to reliable data, metrics, and analytical tools.
+SCOPUS uniquely combined a comprehensive, expertly curated abstract and citation database with enriched data and linked scholarly literature across various disciplines. It quickly finds relevant and authoritative research, identifies experts, and provides access to reliable data, metrics, and analytical tools.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Research procedure}
-We based the procedure of our analysis on selecting a set of articles that met the condition of dealing with discrimination in academia for \textbf{any} cause and then analyzing how many articles were related to which types of discrimination. 
+We based our analysis procedure on selecting a set of articles that met the condition of dealing with discrimination in academia for \textbf{any} cause and then analyzing how many articles were related to which types of discrimination. 
 
-Defining a data-set \textbf{beforehand} instead of searching for publications on each type of discrimination, had an apparent aim: avoiding the introduction of bias in our analysis.
+Defining a data set \textbf{beforehand} instead of searching for publications on each type of discrimination had an apparent aim: avoiding the introduction of bias in our analysis.
 
 \subsection{Set of publications to be analyzed} 
 We defined our inclusion criteria as those contained in the \textit{title/abstract}: \textbf{inequality}, \textbf{discrimination}, or \textbf{equality}. We also included words and concepts such as \textbf{academic career} and \textbf{research career}. From the initial set of publications, we analyzed how many of them dealt with discrimination based on gender, race, and sexual orientation. This analysis was also performed by searching for keywords in the title or abstract of the publications. 
@@ -61,7 +72,7 @@ After analyzing the most common types of discrimination, we discarded these pape
 \subsection{Academia tendency for the past five years: text analysis}
 We scrapped the PDF selection using \href{https://www.python.org/}{Python} and then processed the data with common data handling libraries and Natural Language Processing tools such as \href{https://pandas.pydata.org/}{Pandas} and \href{https://www.nltk.org/}{NLTK}. 
 
-To achieve a clean text to work with, we removed all special characters and punctuation; we also erased the English stop-words. Stop-words are available in abundance in any human language. By removing these words, we remove the low-level information from our text in order to give more focus to the high-level information. The complete Google Colab Notebook can be found  \href{https://colab.research.google.com/drive/1IjIltXAYM-fAM2dUuPyqpsezf4HZf19G?usp=sharing}{here.}
+To achieve a clean text to work with, we removed all special characters and punctuation; we also erased the English stopwords. Stop-words are available in abundance in any human language. By removing these words, we remove the low-level information from our text to give more focus to the high-level information. The complete Google Colab Notebook can be found  \href{https://colab.research.google.com/drive/1IjIltXAYM-fAM2dUuPyqpsezf4HZf19G?usp=sharing}{here.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 \subsection{SCOPUS Query Search}
